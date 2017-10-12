@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Library</title>
+	<link rel="stylesheet" type="text/css" href="stil.css">
+	<script type="text/javascript" src="funkcije.js"></script>
+</head>
+
+<body onload="xml()">
+<div class="header">
+	<ul>
+		<li><a href="projekt.html">Online Library</a></li><li>|</li>
+		<li><a href="#listica">List of Books</a></li><li>|</li>
+		<li><a href="#searching">Search Books</a></li><li>|</li>
+		<li><a href="#checking">Check!</a></li>
+	</ul>
+</div>
+
+<div id="header2">
+<h1>Welcome to Book Library</h1>
+<hr>
+	<div id="slike">
+		<img src="books.jpg" height="300px" width="500px">
+	</div>
+</div>
+
+<hr>
+<div class="ispis" id="listica">
+	<div class="unutarnji" id="wonder">
+	<h2>Wonder how many books we have in our library?</h2>
+	<input type="button" onClick="javascript:wondering()" value="Find Out!">
+	<input type="button" onClick="javascript:hide()" value="Hide That Shame.">
+	<div id="noBooks"></div>
+	</div>
+	<hr>
+	<h2>All of The Books</h2>
+	<hr>
+	<div id="nazivi">
+		<h2>All</h2>
+	</div>
+</div>
+
+<br>
+
+<hr>
+
+<div id="searching">
+	<h1>Can't find the book you want on our list?</h1>
+	<h2>Search for the book here!</h2>
+	<input type="text" id="unos">
+	<input type="button" onClick="javascript:trazi()" value="Search">
+	<input type="button" onClick="javascript:hide()" value="Hide">
+	<div id="ispisKnjige"></div>
+	<br>
+</div>
+<hr>
+<div id="checking">
+	<h1>Not sure if you have enough money for one of our amazing books?</h1>
+	<h2>Check the value!</h2>
+	<input type="text" id="cijena">
+	<input type="button" onClick="javascript:provjeraCijene()" value="Search">
+	<input type="button" onClick="javascript:hide()" value="Hide">
+	<div id="jeftinije"></div>
+	<br>
+</div>
+<hr>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Copyright &copy; Book Library</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

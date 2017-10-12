@@ -1,0 +1,93 @@
+body {
+	width: 60%;
+	background-color: #FFE4C4;
+	margin: 0px auto;
+	padding-top: 0px;
+	text-align: center;
+}
+
+html {
+		background: url("ctulhu.jpg");
+}
+
+.header {
+	background-color: #e4c49b;
+	text-align: center;
+
+}
+
+
+
+p { 
+	color: #333; 
+	font-family: 'Muli', sans-serif; 
+	margin-bottom: 15px; 
+}
+
+a { 
+	color: #ff6600; 
+	transition: .5s; 
+	-moz-transition: .5s; 
+	-webkit-transition: .5s; 
+	-o-transition: .5s; 
+	font-family: 'Muli', sans-serif; 
+}
+
+a:hover { text-decoration: underline }
+
+hr {
+	width: 50%;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 28px;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+#lista a {
+	font-size: 18px;
+	color: #8B4513;
+	padding-left: 10px;
+	font-family: "Times New Roman", Georgia, Serif;
+	text-decoration: none;
+}
+
+h2 {
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 24px;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+h3 {
+	color: #9c4e16;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1 {
+	color: #D2691E;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+.unutarnji {
+	margin-top: 30px;
+}
+
+img {
+	width: 50%;
+	height: auto;
+}
+
+footer {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}

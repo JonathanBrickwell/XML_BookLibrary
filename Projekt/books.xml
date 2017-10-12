@@ -1,0 +1,62 @@
+<bookstore>
+  <knjiga>1.Knjiga</knjiga>
+    <type category="cooking">
+      <book>
+       <title lang="en">Everyday Italian</title>
+       <author>Giada De Laurentiis</author>
+       <year>2005</year>
+       <price>30.00</price> 
+     </book>
+    </type>
+  <knjiga>2. Knjiga</knjiga>
+    <type category="children">
+      <book>
+       <title lang="en">Harry Potter</title>
+       <author>J K. Rowling</author>
+       <year>2005</year>
+       <price>29.99</price>
+     </book>
+    </type>
+  <knjiga>3.Knjiga</knjiga>
+    <type category="web">
+      <book>
+       <title lang="en">XQuery Kick Start</title>
+       <author>James McGovern</author>
+       <author>Per Bothner</author>
+       <author>Kurt Cagle</author>
+       <author>James Linn</author>
+       <author>Vaidyanathan Nagarajan</author>
+       <year>2003</year>
+       <price>49.99</price> 
+     </book>
+    </type>
+  <knjiga>4.Knjiga</knjiga>
+    <type category="web" cover="paperback">
+      <book>
+       <title lang="en">Learning XML</title>
+       <author>Erik T. Ray</author>
+       <year>2003</year>
+       <price>39.99</price> 
+     </book>
+    </type>
+    <knjiga>5.Knjiga</knjiga>
+    <type category="fiction">
+      <book>
+       <title lang="en">The Alchemist</title>
+       <author>H. P. Lovecraft</author>
+       <year>2003</year>
+       <price>39.99</price> 
+     </book>
+    </type>
+    <knjiga>6.Knjiga</knjiga>
+    <type category="fiction">
+      <book>
+       <title lang="en">The Hobbit</title>
+       <author>J. R. R. Tolkien</author>
+       <year>2003</year>
+       <price>59.99</price> 
+     </book>
+    </type>
+    
+    
+</bookstore>
